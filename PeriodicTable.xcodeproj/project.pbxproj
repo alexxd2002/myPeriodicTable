@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		11701FE32124501400686AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11701FE22124501400686AB8 /* AppDelegate.swift */; };
-		11701FE52124501400686AB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11701FE42124501400686AB8 /* ViewController.swift */; };
 		11701FE82124501400686AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11701FE62124501400686AB8 /* Main.storyboard */; };
 		11701FEB2124501400686AB8 /* PeriodicTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11701FE92124501400686AB8 /* PeriodicTable.xcdatamodeld */; };
 		11701FED2124502600686AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11701FEC2124502600686AB8 /* Assets.xcassets */; };
 		11701FF02124502600686AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11701FEE2124502600686AB8 /* LaunchScreen.storyboard */; };
+		11701FF82124618200686AB8 /* Elemente_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11701FF72124618200686AB8 /* Elemente_TableViewController.swift */; };
+		11701FFA2124640E00686AB8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11701FF92124640E00686AB8 /* TableViewCell.swift */; };
+		1188ADB521F7905300F77230 /* Info_VC_Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188ADB421F7905300F77230 /* Info_VC_Code.swift */; };
+		118E6DD021298060005923E9 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E6DCF21298060005923E9 /* Element.swift */; };
+		118E6DD221299682005923E9 /* Element_Information_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E6DD121299682005923E9 /* Element_Information_ViewController.swift */; };
+		1195BDB221E108080003E004 /* elements_add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDB121E108080003E004 /* elements_add.swift */; };
+		1195BDB421E108C70003E004 /* InfoVC_Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDB321E108C70003E004 /* InfoVC_Layout.swift */; };
+		1195BDB621E109380003E004 /* Urheberrecht_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDB521E109380003E004 /* Urheberrecht_ViewController.swift */; };
+		1195BDB821E109830003E004 /* Period_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDB721E109830003E004 /* Period_ViewController.swift */; };
+		1195BDBA21E109A30003E004 /* Period_Algo_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDB921E109A30003E004 /* Period_Algo_VC.swift */; };
+		1195BDBC21E109E40003E004 /* PeriodVC_Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDBB21E109E30003E004 /* PeriodVC_Layout.swift */; };
+		1195BDBE21E10A170003E004 /* Sortet_Popup_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDBD21E10A170003E004 /* Sortet_Popup_ViewController.swift */; };
+		1195BDC021E10A470003E004 /* Text_Einstellungen_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDBF21E10A470003E004 /* Text_Einstellungen_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11701FDF2124501400686AB8 /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11701FE22124501400686AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11701FE42124501400686AB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11701FE72124501400686AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11701FEA2124501400686AB8 /* PeriodicTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeriodicTable.xcdatamodel; sourceTree = "<group>"; };
 		11701FEC2124502600686AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11701FEF2124502600686AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11701FF12124502600686AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11701FF72124618200686AB8 /* Elemente_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elemente_TableViewController.swift; sourceTree = "<group>"; };
+		11701FF92124640E00686AB8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1188ADB421F7905300F77230 /* Info_VC_Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info_VC_Code.swift; sourceTree = "<group>"; };
+		118E6DCF21298060005923E9 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		118E6DD121299682005923E9 /* Element_Information_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element_Information_ViewController.swift; sourceTree = "<group>"; };
+		1195BDB121E108080003E004 /* elements_add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = elements_add.swift; sourceTree = "<group>"; };
+		1195BDB321E108C70003E004 /* InfoVC_Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC_Layout.swift; sourceTree = "<group>"; };
+		1195BDB521E109380003E004 /* Urheberrecht_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urheberrecht_ViewController.swift; sourceTree = "<group>"; };
+		1195BDB721E109830003E004 /* Period_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Period_ViewController.swift; sourceTree = "<group>"; };
+		1195BDB921E109A30003E004 /* Period_Algo_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Period_Algo_VC.swift; sourceTree = "<group>"; };
+		1195BDBB21E109E30003E004 /* PeriodVC_Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodVC_Layout.swift; sourceTree = "<group>"; };
+		1195BDBD21E10A170003E004 /* Sortet_Popup_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sortet_Popup_ViewController.swift; sourceTree = "<group>"; };
+		1195BDBF21E10A470003E004 /* Text_Einstellungen_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text_Einstellungen_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +81,20 @@
 			isa = PBXGroup;
 			children = (
 				11701FE22124501400686AB8 /* AppDelegate.swift */,
-				11701FE42124501400686AB8 /* ViewController.swift */,
 				11701FE62124501400686AB8 /* Main.storyboard */,
+				118E6DD121299682005923E9 /* Element_Information_ViewController.swift */,
+				1188ADB421F7905300F77230 /* Info_VC_Code.swift */,
+				1195BDB321E108C70003E004 /* InfoVC_Layout.swift */,
+				1195BDB521E109380003E004 /* Urheberrecht_ViewController.swift */,
+				1195BDB721E109830003E004 /* Period_ViewController.swift */,
+				1195BDB921E109A30003E004 /* Period_Algo_VC.swift */,
+				1195BDBB21E109E30003E004 /* PeriodVC_Layout.swift */,
+				1195BDBD21E10A170003E004 /* Sortet_Popup_ViewController.swift */,
+				1195BDBF21E10A470003E004 /* Text_Einstellungen_ViewController.swift */,
+				11701FF72124618200686AB8 /* Elemente_TableViewController.swift */,
+				1195BDB121E108080003E004 /* elements_add.swift */,
+				118E6DCF21298060005923E9 /* Element.swift */,
+				11701FF92124640E00686AB8 /* TableViewCell.swift */,
 				11701FEC2124502600686AB8 /* Assets.xcassets */,
 				11701FEE2124502600686AB8 /* LaunchScreen.storyboard */,
 				11701FF12124502600686AB8 /* Info.plist */,
@@ -138,9 +174,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11701FE52124501400686AB8 /* ViewController.swift in Sources */,
+				118E6DD221299682005923E9 /* Element_Information_ViewController.swift in Sources */,
+				1195BDBC21E109E40003E004 /* PeriodVC_Layout.swift in Sources */,
+				1195BDBE21E10A170003E004 /* Sortet_Popup_ViewController.swift in Sources */,
 				11701FE32124501400686AB8 /* AppDelegate.swift in Sources */,
+				1195BDC021E10A470003E004 /* Text_Einstellungen_ViewController.swift in Sources */,
+				1195BDB621E109380003E004 /* Urheberrecht_ViewController.swift in Sources */,
+				11701FFA2124640E00686AB8 /* TableViewCell.swift in Sources */,
 				11701FEB2124501400686AB8 /* PeriodicTable.xcdatamodeld in Sources */,
+				11701FF82124618200686AB8 /* Elemente_TableViewController.swift in Sources */,
+				1195BDBA21E109A30003E004 /* Period_Algo_VC.swift in Sources */,
+				1195BDB821E109830003E004 /* Period_ViewController.swift in Sources */,
+				1195BDB421E108C70003E004 /* InfoVC_Layout.swift in Sources */,
+				1188ADB521F7905300F77230 /* Info_VC_Code.swift in Sources */,
+				118E6DD021298060005923E9 /* Element.swift in Sources */,
+				1195BDB221E108080003E004 /* elements_add.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,15 +332,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6DM55KXPRF;
+				DEVELOPMENT_TEAM = GQQZS53FAJ;
 				INFOPLIST_FILE = PeriodicTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AlphaBeta.PeriodicTable;
+				PRODUCT_BUNDLE_IDENTIFIER = myDevelopStudio.PeriodicTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,15 +353,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6DM55KXPRF;
+				DEVELOPMENT_TEAM = GQQZS53FAJ;
 				INFOPLIST_FILE = PeriodicTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AlphaBeta.PeriodicTable;
+				PRODUCT_BUNDLE_IDENTIFIER = myDevelopStudio.PeriodicTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
