@@ -25,7 +25,7 @@
 		1195BDBC21E109E40003E004 /* PeriodVC_Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDBB21E109E30003E004 /* PeriodVC_Layout.swift */; };
 		1195BDBE21E10A170003E004 /* Sortet_Popup_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDBD21E10A170003E004 /* Sortet_Popup_ViewController.swift */; };
 		1195BDC021E10A470003E004 /* Text_Einstellungen_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195BDBF21E10A470003E004 /* Text_Einstellungen_ViewController.swift */; };
-		11CC6FDA21FA51CB0004829B /* TEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CC6FD921FA51CB0004829B /* TEST.swift */; };
+		11CC6FDC21FA52C10004829B /* tttest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CC6FDB21FA52C00004829B /* tttest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +49,7 @@
 		1195BDBB21E109E30003E004 /* PeriodVC_Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodVC_Layout.swift; sourceTree = "<group>"; };
 		1195BDBD21E10A170003E004 /* Sortet_Popup_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sortet_Popup_ViewController.swift; sourceTree = "<group>"; };
 		1195BDBF21E10A470003E004 /* Text_Einstellungen_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text_Einstellungen_ViewController.swift; sourceTree = "<group>"; };
-		11CC6FD921FA51CB0004829B /* TEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEST.swift; sourceTree = "<group>"; };
+		11CC6FDB21FA52C00004829B /* tttest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tttest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,7 @@
 		11701FD62124501300686AB8 = {
 			isa = PBXGroup;
 			children = (
+				11CC6FDB21FA52C00004829B /* tttest.swift */,
 				11701FE12124501400686AB8 /* PeriodicTable */,
 				11701FE02124501400686AB8 /* Products */,
 			);
@@ -82,7 +83,6 @@
 		11701FE12124501400686AB8 /* PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
-				11CC6FD921FA51CB0004829B /* TEST.swift */,
 				11701FE22124501400686AB8 /* AppDelegate.swift */,
 				11701FE62124501400686AB8 /* Main.storyboard */,
 				118E6DD121299682005923E9 /* Element_Information_ViewController.swift */,
@@ -182,7 +182,6 @@
 				1195BDBE21E10A170003E004 /* Sortet_Popup_ViewController.swift in Sources */,
 				11701FE32124501400686AB8 /* AppDelegate.swift in Sources */,
 				1195BDC021E10A470003E004 /* Text_Einstellungen_ViewController.swift in Sources */,
-				11CC6FDA21FA51CB0004829B /* TEST.swift in Sources */,
 				1195BDB621E109380003E004 /* Urheberrecht_ViewController.swift in Sources */,
 				11701FFA2124640E00686AB8 /* TableViewCell.swift in Sources */,
 				11701FEB2124501400686AB8 /* PeriodicTable.xcdatamodeld in Sources */,
@@ -193,6 +192,7 @@
 				1188ADB521F7905300F77230 /* Info_VC_Code.swift in Sources */,
 				118E6DD021298060005923E9 /* Element.swift in Sources */,
 				1195BDB221E108080003E004 /* elements_add.swift in Sources */,
+				11CC6FDC21FA52C10004829B /* tttest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
