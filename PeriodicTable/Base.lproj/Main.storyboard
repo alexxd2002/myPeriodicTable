@@ -117,9 +117,7 @@
                                         <color key="backgroundColor" red="0.1411622166633606" green="0.14118441939353943" blue="0.14115467667579651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Schalenmodell"/>
                                         <connections>
-                                            <segue destination="Zdv-PP-5RC" kind="popoverPresentation" popoverAnchorView="kjT-aP-0bQ" id="Hye-hR-DNZ">
-                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                            </segue>
+                                            <segue destination="Zdv-PP-5RC" kind="showDetail" id="UQS-VP-woC"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3b-u1-NId">
@@ -127,6 +125,8 @@
                                         <color key="backgroundColor" red="0.1411622166633606" green="0.14118441939353943" blue="0.14115467667579651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="y3b-u1-NId" secondAttribute="height" multiplier="1:1" id="Zom-hf-QU3"/>
+                                            <constraint firstAttribute="height" constant="102" id="n91-DT-WBg"/>
+                                            <constraint firstAttribute="width" constant="102" id="vSg-a3-pZJ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="63"/>
                                         <color key="textColor" red="0.96264368295669556" green="0.31691768765449524" blue="0.21906787157058716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -190,7 +190,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Die Einheit u (unit), ist eine Maßeinheit für Atommasse. Ein u entspricht etwa 0.00000000000000000000000124g" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dkb-PG-Phs">
-                                <rect key="frame" x="16" y="176" width="288" height="72"/>
+                                <rect key="frame" x="16" y="150" width="233" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="8N9-L0-4Hb"/>
                                 </constraints>
@@ -199,7 +199,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dichte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzg-e3-M2Q">
-                                <rect key="frame" x="16" y="264" width="165" height="26"/>
+                                <rect key="frame" x="16" y="223" width="110" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="Hwp-pa-N2J"/>
                                 </constraints>
@@ -208,7 +208,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Die Dichte eines Elements wird in g/cm^3 angegeben. Bei Gasen aber in g/l." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VjU-cF-8BC">
-                                <rect key="frame" x="16" y="290" width="288" height="47"/>
+                                <rect key="frame" x="16" y="247" width="233" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="aog-bd-sWR"/>
                                 </constraints>
@@ -217,7 +217,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radioaktivität" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvW-co-xtF">
-                                <rect key="frame" x="16" y="352" width="165" height="26"/>
+                                <rect key="frame" x="16" y="298" width="110" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="aiV-nq-zcf"/>
                                 </constraints>
@@ -226,7 +226,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hier gibt es verschiedene Einheiten, die angeben wie lange es dauert, bis sich die Radioaktivität halbiert." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2B-Sk-9dN">
-                                <rect key="frame" x="16" y="386" width="288" height="71"/>
+                                <rect key="frame" x="16" y="329" width="233" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="71" id="DfR-po-xd1"/>
                                 </constraints>
@@ -235,13 +235,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Die Einheit s steht für Sekunden, die Einheit min steht für Minuten, die Einheit h steht für Stunden und a steht für Jahre." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFa-zP-0na">
-                                <rect key="frame" x="16" y="465" width="288" height="83"/>
+                                <rect key="frame" x="16" y="396" width="233" height="71"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gewicht/Masse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf3-tO-3rh">
-                                <rect key="frame" x="16" y="142" width="165" height="26"/>
+                                <rect key="frame" x="16" y="120" width="110" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="fG3-H7-tly"/>
                                 </constraints>
@@ -641,7 +641,7 @@
                                         </connections>
                                     </button>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vPR-Cl-Itl">
-                                        <rect key="frame" x="0.0" y="73" width="240" height="127"/>
+                                        <rect key="frame" x="0.0" y="73" width="185" height="127"/>
                                         <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="dataSource" destination="yZF-Sx-Fht" id="f8p-vi-bHA"/>
