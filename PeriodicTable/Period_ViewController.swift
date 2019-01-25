@@ -29,6 +29,8 @@ class Period_ViewController: UIViewController {
         
         //Anzeige
         curElementImage()
+        showName()
+        showPeriod()
     }
     
     @IBAction func close(_ sender: Any) {

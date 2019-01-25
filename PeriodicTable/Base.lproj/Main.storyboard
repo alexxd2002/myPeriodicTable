@@ -81,7 +81,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mqz-Br-O1S">
                                 <rect key="frame" x="8" y="72" width="304" height="488"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="some info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9v-ln-QW5">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="some info" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9v-ln-QW5">
                                         <rect key="frame" x="16" y="157" width="272" height="277"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="277" id="awz-Fm-kNT"/>
@@ -95,6 +95,7 @@
                                         <color key="backgroundColor" red="0.1411622166633606" green="0.14118441939353943" blue="0.14115467667579651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="87" id="80T-5F-vMi"/>
+                                            <constraint firstAttribute="height" constant="87" id="Qem-XV-DMz"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                         <color key="textColor" red="0.96264368295669556" green="0.31691768765449524" blue="0.21906787157058716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -161,6 +162,7 @@
                         <outlet property="element_kurz" destination="OpH-Cd-aPp" id="X6c-pN-ZNm"/>
                         <outlet property="info" destination="g9v-ln-QW5" id="nLB-u7-WeJ"/>
                         <outlet property="mainView" destination="mqz-Br-O1S" id="HUr-ym-3v4"/>
+                        <outlet property="schalenmodell" destination="kjT-aP-0bQ" id="TBS-xb-Qld"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nju-86-56r" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -270,7 +272,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZE-az-QAD">
                                 <rect key="frame" x="8" y="124" width="304" height="320"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Periodic Table" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Te-2L-JKR">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Periodic TableTT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Te-2L-JKR">
                                         <rect key="frame" x="0.0" y="12" width="304" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="eQj-Px-f2D"/>
@@ -290,6 +292,9 @@
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="0dZ-jZ-N6v">
                                         <rect key="frame" x="81" y="100" width="142" height="132"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="0dZ-jZ-N6v" secondAttribute="height" multiplier="71:66" id="spR-TT-xj9"/>
+                                        </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hat 1 Elektron in Valenzschale" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eV-8J-lCM">
                                         <rect key="frame" x="0.0" y="240" width="304" height="21"/>
@@ -304,6 +309,9 @@
                                         <state key="normal" title="Zurück">
                                             <color key="titleColor" red="0.96264368300000003" green="0.31691768770000001" blue="0.21906787159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="close:" destination="Zdv-PP-5RC" eventType="touchUpInside" id="gng-Cb-GR9"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1411622166633606" green="0.14118441939353943" blue="0.14115467667579651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
