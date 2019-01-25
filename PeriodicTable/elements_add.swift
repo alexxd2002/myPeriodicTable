@@ -261,9 +261,18 @@ extension Elemente_TableViewController {
     }
 }
 
+func  checkNil() {
+    if UserDefaults.standard.value(forKey: "text") == nil {
+        UserDefaults.standard.set(false, forKey: "text")
+    }
+}
+
+
+
 func checkSort() {
     if UserDefaults.standard.value(forKey: "sort") == nil {
         UserDefaults.standard.set(1, forKey: "sort")
     }
+}
     
- }
+

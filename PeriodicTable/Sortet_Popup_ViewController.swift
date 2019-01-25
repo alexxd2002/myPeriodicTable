@@ -26,12 +26,17 @@ class Sortet_Popup_ViewController: UIViewController, UIPickerViewDataSource, UIP
         //corners
         popupview.layer.cornerRadius = 14
         popupview.layer.masksToBounds = true
+        
     }
     
     @IBAction func back(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        //Text Color
+        sortetOptionPicker.setValue(UIColor.white, forKey: "textColor")
+    }
     
     // MARK: - Navigation
 

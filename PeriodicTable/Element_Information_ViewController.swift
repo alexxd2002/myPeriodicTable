@@ -28,7 +28,7 @@ class Element_Information_ViewController: UIViewController {
         //Layout
         corners()
         
-        UserDefaults.standard.set(false, forKey: "text")
+        
         //Show information
         NameNum()
         info.text = infoText(text: UserDefaults.standard.value(forKey: "text") as! Bool)

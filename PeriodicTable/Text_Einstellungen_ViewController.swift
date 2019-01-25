@@ -9,22 +9,33 @@
 import UIKit
 
 class Text_Einstellungen_ViewController: UIViewController {
-
+    
+    @IBOutlet weak var text: UISwitch!
+    @IBOutlet weak var settings: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        text.setOn((UserDefaults.standard.value(forKey: "text") as! Bool), animated: true)
+        print(UserDefaults.standard.value(forKey: "text")!)
+        layout()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        text.setOn((UserDefaults.standard.value(forKey: "text") as! Bool), animated: true)
+        view.reloadInputViews()
     }
-    */
-
+    
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        UserDefaults.standard.set(text.isOn, forKey: "text")
+    }
+    
+    /**
+     Corners
+     */
+    func layout() {
+        settings.layer.cornerRadius = 10
+        settings.layer.masksToBounds = true
+    }
+    
 }

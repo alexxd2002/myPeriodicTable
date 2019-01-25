@@ -18,7 +18,7 @@ class Elemente_TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         checkSort()
-        //checkNil()
+        checkNil()
         
         elements = createArray(sort: UserDefaults.standard.value(forKey: "sort") as! Int)
         
