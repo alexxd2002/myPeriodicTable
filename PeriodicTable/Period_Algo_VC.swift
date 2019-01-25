@@ -36,6 +36,21 @@ extension Period_ViewController {
     }
     
     /**
+     Übergangsoption Hauptgruppen Valzensschale für KLMN-Lbl
+     */
+    func valenz(hg: Int?, oz: Int) {
+        
+        if oz == 2 {
+            KLMN.text = "Hat 2 Elektronen in Valzenschale"
+        } else if hg != nil && hg != 1 && oz != 2 {
+            KLMN.text = "Hat \(hg!) Elektronen in Valzenschale"
+        } else if hg != nil && hg == 1 {
+            KLMN.text = "Hat \(hg!) Elektron in Valzenschale"
+        } else if hg == nil {
+            KLMN.text = "Hat 2 Elektronen in Valzenschale" //Ungenau
+        }
+    
+    /**
      KLMNOP Schalen auswerten Nicht fertig!!!!
     */
     func placePeriod(periodelement: Int, hg: Int?) {
@@ -100,4 +115,5 @@ extension Period_ViewController {
             }
         }
     }
+}
 }

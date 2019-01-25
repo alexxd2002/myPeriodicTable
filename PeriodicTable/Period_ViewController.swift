@@ -31,6 +31,7 @@ class Period_ViewController: UIViewController {
         curElementImage()
         showName()
         showPeriod()
+        valenz(hg: hg, oz: oz)
     }
     
     @IBAction func close(_ sender: Any) {
