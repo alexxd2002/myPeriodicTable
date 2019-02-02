@@ -251,16 +251,37 @@ extension Element_Information_ViewController {
      
      - parameter text: Bool der Text oder Stichpunkte bestimmt TRUE-> Text | FALSE -> Stichpunkte
      */
-    func infoText(text: Bool) -> String {
+    func infoText(text: Bool, filter: String) -> String {
         if text {
             print("\(elements[ArrayIndex].name) ist das \(elements[ArrayIndex].oz). Elemement, wiegt \(Unit()) u. \(groupsTxt()) und \(ElektonegativitätswertTxt()). Es \(periodTxt()) und \(SuSTxt()). \(radioaktivitätTxt()).")
             
             return "\(elements[ArrayIndex].name) ist das \(elements[ArrayIndex].oz). Elemement, wiegt \(Unit()) \(groupsTxt()). Der \(ElektonegativitätswertTxt()), das Element \(periodTxt()) und \(SuSTxt()). \(radioaktivitätTxt()), die \(DichteTxt())."
             
-        } else {
+        } else if filter == "nichts" && text == false {
             print("Gewicht: \(Unit()) u. \nGruppe: \(groups()) \nElektronegativitätswert: \(Elektonegativitätswert()) \nSchale: \(period()) \n\(SuS()) \nRadioaktivität: \(radioaktivität()) \nDichte: \(Dichte())")
             return "Gewicht: \(Unit()) u. \nGruppe: \(groups()) \nElektronegativitätswert: \(Elektonegativitätswert()) \nSchale: \(period()) \n\(SuS()) \nRadioaktivität: \(radioaktivität()) \nDichte: \(Dichte())"
+        
+        } else if filter == "gewicht" && text == false {
+            print("Gewicht: \(Unit()) u.")
+            return "Gewicht: \(Unit()) u."
+        } else if filter == "en" && text == false {
+            print("Elektronegativitätswert: \(Elektonegativitätswert())")
+            return "Elektronegativitätswert: \(Elektonegativitätswert())"
+        } else if filter == "schalen" && text == false {
+            print("Schale: \(period())")
+            return "Schale: \(period())"
+        } else if filter == "ss" && text == false {
+            print("\(SuS())")
+            return "\(SuS())"
+        } else if filter == "radio" && text == false {
+            print("Radioaktivität: \(radioaktivität())")
+            return "Radioaktivität: \(radioaktivität())"
+        } else if filter == "dichte" && text == false {
+            print("Dichte: \(Dichte())")
+            return "Dichte: \(Dichte())"
         }
+        
+        return "???"
     }
     
     /**

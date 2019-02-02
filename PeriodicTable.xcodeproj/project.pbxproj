@@ -14,6 +14,7 @@
 		11701FF02124502600686AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11701FEE2124502600686AB8 /* LaunchScreen.storyboard */; };
 		11701FF82124618200686AB8 /* Elemente_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11701FF72124618200686AB8 /* Elemente_TableViewController.swift */; };
 		11701FFA2124640E00686AB8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11701FF92124640E00686AB8 /* TableViewCell.swift */; };
+		117743302205BAFE00D73A84 /* Filter_Info_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177432F2205BAFE00D73A84 /* Filter_Info_ViewController.swift */; };
 		1188ADB521F7905300F77230 /* Info_VC_Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188ADB421F7905300F77230 /* Info_VC_Code.swift */; };
 		118E6DD021298060005923E9 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E6DCF21298060005923E9 /* Element.swift */; };
 		118E6DD221299682005923E9 /* Element_Information_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E6DD121299682005923E9 /* Element_Information_ViewController.swift */; };
@@ -37,6 +38,7 @@
 		11701FF12124502600686AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11701FF72124618200686AB8 /* Elemente_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elemente_TableViewController.swift; sourceTree = "<group>"; };
 		11701FF92124640E00686AB8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1177432F2205BAFE00D73A84 /* Filter_Info_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter_Info_ViewController.swift; sourceTree = "<group>"; };
 		1188ADB421F7905300F77230 /* Info_VC_Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info_VC_Code.swift; sourceTree = "<group>"; };
 		118E6DCF21298060005923E9 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 		118E6DD121299682005923E9 /* Element_Information_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element_Information_ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				11701FE22124501400686AB8 /* AppDelegate.swift */,
 				11701FE62124501400686AB8 /* Main.storyboard */,
+				1177432F2205BAFE00D73A84 /* Filter_Info_ViewController.swift */,
 				118E6DD121299682005923E9 /* Element_Information_ViewController.swift */,
 				1188ADB421F7905300F77230 /* Info_VC_Code.swift */,
 				1195BDB321E108C70003E004 /* InfoVC_Layout.swift */,
@@ -178,6 +181,7 @@
 				1195BDBC21E109E40003E004 /* PeriodVC_Layout.swift in Sources */,
 				1195BDBE21E10A170003E004 /* Sortet_Popup_ViewController.swift in Sources */,
 				11701FE32124501400686AB8 /* AppDelegate.swift in Sources */,
+				117743302205BAFE00D73A84 /* Filter_Info_ViewController.swift in Sources */,
 				1195BDC021E10A470003E004 /* Text_Einstellungen_ViewController.swift in Sources */,
 				1195BDB621E109380003E004 /* Urheberrecht_ViewController.swift in Sources */,
 				11701FFA2124640E00686AB8 /* TableViewCell.swift in Sources */,

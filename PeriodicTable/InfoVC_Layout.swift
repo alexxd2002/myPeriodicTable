@@ -42,4 +42,17 @@ extension Element_Information_ViewController {
         shortnCorners()
         mainViewCorners()
     }
+    
+    /**
+     textFronts
+    */
+    func infoFont() {
+        if UserDefaults.standard.value(forKey: "filter") as! String == "nichts" {
+                info.font = info.font.withSize(15)
+        } else {
+            info.font = info.font.withSize(18.7)
+        }
+        
+       
+    }
 }

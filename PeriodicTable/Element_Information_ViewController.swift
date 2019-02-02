@@ -28,10 +28,13 @@ class Element_Information_ViewController: UIViewController {
         //Layout
         corners()
         
+        //Font
+        infoFont()
+        
         
         //Show information
         NameNum()
-        info.text = infoText(text: UserDefaults.standard.value(forKey: "text") as! Bool)
+        info.text = infoText(text: UserDefaults.standard.value(forKey: "text") as! Bool, filter: UserDefaults.standard.value(forKey: "filter") as! String)
         
     }
     

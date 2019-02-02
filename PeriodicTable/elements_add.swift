@@ -265,6 +265,10 @@ func  checkNil() {
     if UserDefaults.standard.value(forKey: "text") == nil {
         UserDefaults.standard.set(false, forKey: "text")
     }
+    
+    if UserDefaults.standard.value(forKey: "filter") == nil {
+        UserDefaults.standard.set("nichts", forKey: "filter")
+    }
 }
 
 

@@ -36,7 +36,7 @@ class Sortet_Popup_ViewController: UIViewController, UIPickerViewDataSource, UIP
     override func viewDidAppear(_ animated: Bool) {
         //Text Color
         sortetOptionPicker.setValue(UIColor.white, forKey: "textColor")
-    }
+        }
     
     // MARK: - Navigation
 
