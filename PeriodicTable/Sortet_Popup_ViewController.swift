@@ -74,4 +74,10 @@ class Sortet_Popup_ViewController: UIViewController, UIPickerViewDataSource, UIP
         return sOptions[row]
     }
     
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        let titleData = sOptions[row]
+        let myTitle = NSAttributedString(string: titleData, attributes: [NSAttributedString.Key.font:UIFont(name: "Georgia", size: 15.0)!,NSAttributedString.Key.foregroundColor:UIColor.white])
+        return myTitle
+    }
+    
 }
