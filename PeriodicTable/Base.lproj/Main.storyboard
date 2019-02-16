@@ -83,7 +83,7 @@
             </objects>
             <point key="canvasLocation" x="324.375" y="480.63380281690144"/>
         </scene>
-        <!--1-->
+        <!--Element Information View Controller-->
         <scene sceneID="PWy-o9-Hyx">
             <objects>
                 <viewController id="mEr-hh-u5S" customClass="Element_Information_ViewController" customModule="PeriodicTable" customModuleProvider="target" sceneMemberID="viewController">
@@ -94,12 +94,20 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mqz-Br-O1S">
                                 <rect key="frame" x="8" y="72" width="304" height="488"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="some info" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9v-ln-QW5">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9v-ln-QW5">
                                         <rect key="frame" x="16" y="157" width="272" height="277"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="277" id="awz-Fm-kNT"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <string key="text">Gewicht: 12.0 u. 
+Gruppe: 4. Hauptgruppe (Kohlenstoffgruppe) 
+Elektronegativitätswert: 2.5 
+Schale: 2 gefüllt 
+Schmelzpunkt: 3650 C° 
+Siedepunkt 4827 C° 
+Radioaktivität: nicht vorhanden 
+Dichte: Dichte beträgt 2.25 g/l</string>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -161,7 +169,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2cT-IA-xmu"/>
                     </view>
-                    <navigationItem key="navigationItem" title="1" largeTitleDisplayMode="never" id="JOQ-cd-XYY">
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="JOQ-cd-XYY">
                         <barButtonItem key="backBarButtonItem" title="Zurück" id="AtW-8v-jnq"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="EQs-Rn-Omo">
                             <connections>
@@ -179,7 +187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nju-86-56r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1194.375" y="480.63380281690144"/>
+            <point key="canvasLocation" x="1148" y="476"/>
         </scene>
         <!--Einheiten-->
         <scene sceneID="Tdi-Hp-hXt">

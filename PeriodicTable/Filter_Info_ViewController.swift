@@ -74,4 +74,5 @@ class Filter_Info_ViewController: UIViewController, UIPickerViewDataSource, UIPi
         
         print("Filter:  \(def.value(forKey: "filter")!)")
     }
+    
 }

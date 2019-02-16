@@ -128,7 +128,7 @@ extension Elemente_TableViewController {
         let e114 = Element(name: "Flerovium", kurz: "Fl", gewicht: 289.0, en: nil, radioakt: nil, hgruppe: 4, ngruppe: nil, schale: 7, dichte: nil, schmelzpunkt: nil, siedepunkt: nil, oz: 114)
         let e115 = Element(name: "Moscovium", kurz: "Mc", gewicht: 288.0, en: nil, radioakt: nil, hgruppe: 5, ngruppe: nil, schale: 7, dichte: nil, schmelzpunkt: nil, siedepunkt: nil, oz: 115)
         let e116 = Element(name: "Livermorium", kurz: "Lv", gewicht: 293.0, en: nil, radioakt: nil, hgruppe: 6, ngruppe: nil, schale: 7, dichte: nil, schmelzpunkt: nil, siedepunkt: nil, oz: 116)
-        let e117 = Element(name: "Tennessine", kurz: "Ts", gewicht: 294.0, en: nil, radioakt: nil, hgruppe: 7, ngruppe: nil, schale: 7, dichte: nil, schmelzpunkt: nil, siedepunkt: nil, oz: 117)
+        let e117 = Element(name: "Tenness", kurz: "Ts", gewicht: 294.0, en: nil, radioakt: nil, hgruppe: 7, ngruppe: nil, schale: 7, dichte: nil, schmelzpunkt: nil, siedepunkt: nil, oz: 117)
         let e118 = Element(name: "Oganesson", kurz: "Og", gewicht: 294.0, en: nil, radioakt: nil, hgruppe: 8, ngruppe: nil, schale: 7, dichte: nil, schmelzpunkt: nil, siedepunkt: nil, oz: 118)
         
         createElements.append(e1)
