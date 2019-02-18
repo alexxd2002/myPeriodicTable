@@ -34,7 +34,8 @@ class Elemente_TableViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         print(UserDefaults.standard.value(forKey: "sort") as! Int)
         elements = createArray(sort: UserDefaults.standard.value(forKey: "sort") as! Int)
-        tableView.reloadData()
+        checkCurSort()
+        
     }
     
     // MARK: - Table view data source

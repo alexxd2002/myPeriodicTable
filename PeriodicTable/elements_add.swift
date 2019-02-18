@@ -20,7 +20,7 @@ extension Elemente_TableViewController {
         let e6 = Element(name: "Kohlenstoff", kurz: "C", gewicht: 12.0, en: 2.5, radioakt: nil, hgruppe: 4, ngruppe: nil, schale: 2, dichte: 2.25, schmelzpunkt: 3650, siedepunkt: 4827, oz: 6)
         let e7 = Element(name: "Stickstoff", kurz: "N", gewicht: 14.0, en: 3.1, radioakt: nil, hgruppe: 5, ngruppe: nil, schale: 2, dichte: 1.17, schmelzpunkt: -210, siedepunkt: -196, oz: 7)
         let e8 = Element(name: "Sauerstoff", kurz: "O", gewicht: 16.0, en: 3.5, radioakt: nil, hgruppe: 6, ngruppe: nil, schale: 2, dichte: 1.33, schmelzpunkt: -219, siedepunkt: -183, oz: 8)
-        let e9 = Element(name: "Flour", kurz: "F", gewicht: 19.0, en: 4.1, radioakt: nil, hgruppe: 7, ngruppe: nil, schale: 2, dichte: 1.58, schmelzpunkt: -219, siedepunkt: -188, oz: 9)
+        let e9 = Element(name: "Fluor", kurz: "F", gewicht: 19.0, en: 4.0, radioakt: nil, hgruppe: 7, ngruppe: nil, schale: 2, dichte: 1.58, schmelzpunkt: -219, siedepunkt: -188, oz: 9)
         let e10 = Element(name: "Neon", kurz: "Ne", gewicht: 20.2, en: nil, radioakt: nil, hgruppe: 8, ngruppe: nil, schale: 2, dichte: 0.84, schmelzpunkt: -249, siedepunkt: -246, oz: 10)
         let e11 = Element(name: "Natrium", kurz: "Na", gewicht: 23.0, en: 1.0, radioakt: nil, hgruppe: 1, ngruppe: nil, schale: 3, dichte: 0.97, schmelzpunkt: 98, siedepunkt: 883, oz: 11)
         let e12 = Element(name: "Magnesium", kurz: "Mg", gewicht: 24.3, en: 1.2, radioakt: nil, hgruppe: 2, ngruppe: nil, schale: 3, dichte: 1.74, schmelzpunkt: 649, siedepunkt: 1107, oz: 12)
@@ -276,7 +276,13 @@ func  checkNil() {
 func checkSort() {
     if UserDefaults.standard.value(forKey: "sort") == nil {
         UserDefaults.standard.set(1, forKey: "sort")
+        
+        if UserDefaults.standard.value(forKey: "sortCur") == nil {
+            UserDefaults.standard.set(1, forKey: "sortCur")
+        }
+    
     }
+
 }
     
 

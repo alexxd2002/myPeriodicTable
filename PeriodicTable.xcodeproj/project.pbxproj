@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11555FF3221B592D008DDE4F /* checkCurSort-Funktion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11555FF2221B592D008DDE4F /* checkCurSort-Funktion.swift */; };
 		11701FE32124501400686AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11701FE22124501400686AB8 /* AppDelegate.swift */; };
 		11701FE82124501400686AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11701FE62124501400686AB8 /* Main.storyboard */; };
 		11701FEB2124501400686AB8 /* PeriodicTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11701FE92124501400686AB8 /* PeriodicTable.xcdatamodeld */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11555FF2221B592D008DDE4F /* checkCurSort-Funktion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "checkCurSort-Funktion.swift"; sourceTree = "<group>"; };
 		11701FDF2124501400686AB8 /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11701FE22124501400686AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11701FE72124501400686AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				1195BDBD21E10A170003E004 /* Sortet_Popup_ViewController.swift */,
 				1195BDBF21E10A470003E004 /* Text_Einstellungen_ViewController.swift */,
 				11701FF72124618200686AB8 /* Elemente_TableViewController.swift */,
+				11555FF2221B592D008DDE4F /* checkCurSort-Funktion.swift */,
 				1195BDB121E108080003E004 /* elements_add.swift */,
 				118E6DCF21298060005923E9 /* Element.swift */,
 				11701FF92124640E00686AB8 /* TableViewCell.swift */,
@@ -188,6 +191,7 @@
 				11701FEB2124501400686AB8 /* PeriodicTable.xcdatamodeld in Sources */,
 				11701FF82124618200686AB8 /* Elemente_TableViewController.swift in Sources */,
 				1195BDBA21E109A30003E004 /* Period_Algo_VC.swift in Sources */,
+				11555FF3221B592D008DDE4F /* checkCurSort-Funktion.swift in Sources */,
 				1195BDB821E109830003E004 /* Period_ViewController.swift in Sources */,
 				1195BDB421E108C70003E004 /* InfoVC_Layout.swift in Sources */,
 				1188ADB521F7905300F77230 /* Info_VC_Code.swift in Sources */,
