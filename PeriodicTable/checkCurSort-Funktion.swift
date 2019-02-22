@@ -18,4 +18,25 @@ extension Elemente_TableViewController {
         }
     }
     
+    func checkSort() {
+        if UserDefaults.standard.value(forKey: "sort") == nil {
+            UserDefaults.standard.set(1, forKey: "sort")
+            
+            if UserDefaults.standard.value(forKey: "sortCur") == nil {
+                UserDefaults.standard.set(1, forKey: "sortCur")
+            }
+            
+        }
+        
+    }
+    
+    func  checkNil() {
+        if UserDefaults.standard.value(forKey: "text") == nil {
+            UserDefaults.standard.set(false, forKey: "text")
+        }
+        
+        if UserDefaults.standard.value(forKey: "filter") == nil {
+            UserDefaults.standard.set("nichts", forKey: "filter")
+        }
+    }
 }

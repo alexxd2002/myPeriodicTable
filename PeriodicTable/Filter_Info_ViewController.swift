@@ -72,7 +72,7 @@ class Filter_Info_ViewController: UIViewController, UIPickerViewDataSource, UIPi
                 def.set("dichte", forKey: "filter")
         }
         
-        print("Filter:  \(def.value(forKey: "filter")!)")
+        print("Filter:  \(def.value(forKey: "filter")!) ")
     }
     
     func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
