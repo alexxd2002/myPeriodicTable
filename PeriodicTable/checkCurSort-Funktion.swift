@@ -12,7 +12,10 @@ extension Elemente_TableViewController {
     
     func checkCurSort() {
         
-        if UserDefaults.standard.value(forKey: "sortCur") as! Int != UserDefaults.standard.value(forKey: "sort") as! Int {
+        if UserDefaults.standard.value(forKey: "sortCur") == nil {
+            UserDefaults.standard.set(1, forKey: "sortCur")
+        
+        } else if UserDefaults.standard.value(forKey: "sortCur") as! Int != UserDefaults.standard.value(forKey: "sort") as! Int {
             UserDefaults.standard.set(UserDefaults.standard.value(forKey: "sort") as! Int, forKey: "sortCur")
             tableView.reloadData()
         }
@@ -21,12 +24,12 @@ extension Elemente_TableViewController {
     func checkSort() {
         if UserDefaults.standard.value(forKey: "sort") == nil {
             UserDefaults.standard.set(1, forKey: "sort")
-            
+        }
             if UserDefaults.standard.value(forKey: "sortCur") == nil {
                 UserDefaults.standard.set(1, forKey: "sortCur")
             }
             
-        }
+        
         
     }
     
@@ -37,6 +40,11 @@ extension Elemente_TableViewController {
         
         if UserDefaults.standard.value(forKey: "filter") == nil {
             UserDefaults.standard.set("nichts", forKey: "filter")
+        }
+        
+        if UserDefaults.standard.value(forKey: "sortCur") == nil {
+            UserDefaults.standard.set(1, forKey: "sortCur")
+            
         }
     }
 }
